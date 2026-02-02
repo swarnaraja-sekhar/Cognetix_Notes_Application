@@ -35,7 +35,7 @@ connectDB();
 
 // Enable CORS for frontend communication
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'], // Vite default port
+  origin: ['http://localhost:5173', 'http://localhost:3000','cognetix-notes-application.vercel.app'], // Vite default port
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
