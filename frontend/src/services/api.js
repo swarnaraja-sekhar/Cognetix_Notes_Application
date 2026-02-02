@@ -10,7 +10,7 @@ import axios from 'axios';
 const API_BASE_URL = 'https://cognetix-notes-application.onrender.com/api';
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: API_BASE_URL
+  baseURL: API_BASE_URL,
 
   headers: {
     'Content-Type': 'application/json',
