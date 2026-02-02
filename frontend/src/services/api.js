@@ -7,7 +7,7 @@ import axios from 'axios';
 
 // API Base URL - adjust for production
 
-const API_BASE_URL = 'https://cognetix-notes-application.onrender.com/api' || 'http://localhost:5000/api';;
+const API_BASE_URL = 'https://cognetix-notes-application.onrender.com/api';
 // Create axios instance with default config
 const api = axios.create({
   baseURL: API_BASE_URL
